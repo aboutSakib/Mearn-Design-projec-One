@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&display=swap");
+.container {
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar start here */
+
+.nabvar_item {
+  display: flex;
+}
+.navbar_image {
+  margin-top: 20px;
+}
+.nabvar_item,
+li,
+a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.navbar,
+ul {
+  display: flex;
+  justify-content: space-around;
+  background: #ecf3ff;
+  gap: 200px;
+}
+/* navbar end here */
+
+/* hero section start here */
+.hero_section {
+  display: flex;
+  padding-top: 63px;
+  justify-content: space-around;
+  background: #ecf3ff;
+}
+.hero_title h1 {
+  font-size: 72px;
+  line-height: 92.16px;
+  letter-spacing: 1%;
+  font-weight: 600;
+}
+.hero_subtitle p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+}
+.hero_btn {
+  display: flex;
+  gap: 30px;
+  padding-top: 20px;
+}
+a.watch_btn {
+  background: #ecf3ff;
+  color: #3e82fc;
+  padding: 10px 20px;
+  border: 1px solid #3e82fc;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+a.contac_btn_one,
+.contac_btn {
+  background: #3e82fc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.img {
+  width: 360px;
+  height: 500px;
+  border-radius: 500px;
+}
+.hero_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 500px;
+  padding-top: 30px;
+}
+
+/* hero section end here */
+
+/* section thare start here */
+
+.direction_content {
+  width: 1070px;
+  margin: 0 auto;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.direction {
+  background: #ecf3ff;
+  padding-top: 105px;
+}
+.title,
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+}
+.subtitle,
+p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 26px;
+  color: #5d616f;
+}
+.read_more {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 26px;
+  color: red;
+  margin-left: -16px;
+}
+
+.treaking {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 28px;
+  color: red;
+}
+.traking_text h1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: gray;
+  margin-top: 70px;
+  letter-spacing: 1px;
+}
+/* section thare end here */
+/* section four start */
+.hero_one {
+  display: flex;
+  justify-content: space-around;
+  gap: 65px;
+  background: #ecf3ff;
+  background-image: url("./image/texture background.png");
+}
+img.safe_image {
+  width: 488px;
+  height: 622px;
+
+  padding-top: 130px;
+}
+.hero_one_title h1 {
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 78.12px;
+  letter-spacing: 1%;
+  color: #05060a;
+}
+.hero_one_subtitle p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32.12px;
+  color: #5d616f;
+  padding-top: 48px;
+}
+.hero_one_text,
+.hero_two_text {
+  padding-top: 191px;
+}
+.hero_one_btn,
+.hero_two_btn,
+.hero_thare_btn {
+  padding-top: 50px;
+}
+
+.two_sponser,
+.thare_sponser {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.sponser_text {
+  text-align: center;
+}
+.sponser_title p {
+  line-height: 28px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #3e82fc;
+}
+.sponser_subtitle h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 1%;
+  color: #05060a;
+}
+.hero_one_sponser {
+  padding-top: 60px;
+  background: #fbfeff;
+}
+.hero_two {
+  display: flex;
+  padding-top: 161px;
+  justify-content: space-around;
+  background-image: url("./image/texture background.png");
+}
+img.hero_two_img {
+  width: 487px;
+  height: 622px;
+  padding-top: 130px;
+}
+.hero_thare {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 191px;
+  background-image: url("./image/texture background.png");
+}
+.hero_text_thare {
+  padding-top: 7%;
+}
+.about_clients {
+  text-align: center;
+  background: #f9fcfd;
+  padding: 70px;
+  padding-top: 70px;
+}
+.client_image {
+  padding-top: 15px;
+}
+.client_title p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #3e82fc;
+}
+.client_subtitle h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 1%;
+}
+.copyright {
+  background: #ecf3ff;
+  text-align: center;
+  line-height: 26px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.client_information {
+  width: 726px;
+  height: 394px;
+  background: #ffffff;
+  border-radius: 140px 0px 140px 0px;
+  margin: 0 auto;
+  background-image: url("./image/texture\ background.png");
+}
+.client_name h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  padding-top: 15px;
+}
+.happy {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: red;
+}
+.rating {
+  padding-top: 15px;
+}
+.client_say {
+  padding-top: 15px;
+}
+.hero_four_title h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 59px;
+  letter-spacing: 1%;
+  color: #05060a;
+}
+.hero_four_subtitle p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #5d616f;
+  padding-top: 15px;
+}
+.hero_four_input {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 50px;
+}
+.hero_four_input input {
+  width: 50%;
+  border: 1px solid #3e82fc;
+  border-radius: 50px;
+  background: none;
+  padding-left: 21px;
+}
+#email::placeholder {
+  color: #3e82fc;
+}
+#subscribe_btn {
+  border-radius: 50px;
+}
+.hero_four {
+  text-align: center;
+  background: #ecf3ff;
+  padding: 70px;
+  padding-top: 70px;
+}
+/* Style the input field container */
+.hero_four_input {
+  position: relative;
+}
+
+/* Set the background image for the placeholder */
+#email::placeholder {
+  background-image: url("./image/mail.png");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+.footer_image {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.footer_text_here {
+  display: flex;
+  justify-content: end;
+  gap: 100px;
+}
+/* Add margin to the <p> tags to create spacing between them */
+.footer_section {
+  display: flex;
+  justify-content: space-around;
+  gap: 91px;
+  padding: 80px;
+  background: #ecf3ff;
+}
+.footer_text_here p {
+  margin: 35px 0; /* Adjust the top and bottom margin as needed */
+}
